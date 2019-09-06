@@ -1,5 +1,5 @@
 import { importSchema } from 'graphql-import';
 
-const typeDefs = importSchema('./src/schema/schema.graphql');
+const typeDefs = importSchema('./src/data/schema/schema.graphql');
 
 export {typeDefs};
