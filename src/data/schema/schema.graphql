@@ -1,9 +1,11 @@
 type Query {
     hello: String!
+    cats: [Cat!]
 }
 
 type Mutation {
     createCat(name: String!): Cat
+    createCatPromise(name: String!): Cat
 }
 
 type Cat {
