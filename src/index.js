@@ -15,7 +15,7 @@ const startServer = async () => {
 
     server.applyMiddleware({ app });
 
-    await mongoose.connect("mongodb+srv://admin:kqmmb7FkYew3XKuz@test-4ymxw.mongodb.net/test?retryWrites=true&w=majority", {
+    await mongoose.connect("mongodb+srv://admin:@test-4ymxw.mongodb.net/test?retryWrites=true&w=majority", {
             useNewUrlParser: true
     })
 
